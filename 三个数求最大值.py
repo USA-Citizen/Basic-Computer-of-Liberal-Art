@@ -1,0 +1,5 @@
+x = float(input('x='))
+y = float(input('y='))
+z = float(input('z='))
+Maximum = max(x,y,z)
+print('最大数为：',Maximum)

@@ -1,0 +1,12 @@
+from tkinter import *
+root = Tk()
+root.geometry('1366x768')
+msg1 = Message(root, text = "请问你是？", relief = RAISED, cursor = 'sizing', font = ('Curlz MT',15))
+msg2 = Message(root, text = "我叫解题指南。", relief = RAISED, cursor = 'sizing', font = ('Curlz MT',15))
+msg3 = Message(root, text = "林下漏月光，疏疏如残雪。", relief = RAISED, cursor = 'sizing', font = ('Curlz MT',15))
+msg4 = Message(root, text = "人生天地间，忽如远行客。", relief = RAISED, cursor = 'sizing', font = ('Curlz MT',15))
+msg1.place(relx = 0.2, rely = 0.2, relwidth = 0.6)
+msg2.place(relx = 0.2, rely = 0.3, relwidth = 0.6)
+msg3.place(relx = 0.2, rely = 0.4, relwidth = 0.6)
+msg4.place(relx = 0.2, rely = 0.5, relwidth = 0.6)
+root.mainloop()
